@@ -260,8 +260,8 @@
     var leadId = newLeadId();
     var payload = {
       lead_id: leadId,
-      project: "Codename Hennur",
-      developer: "",
+      project: "Purva Codename Hennur",
+      developer: "Puravankara",
       location: "Off Outer Ring Road, Hennur, North Bengaluru",
       source: "Website - Codename Hennur landing page",
       name: v.name.replace(/\s+/g, " "),
