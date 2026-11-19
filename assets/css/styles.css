@@ -788,3 +788,5 @@ button.hero-eoi:hover { background: #f0d48a; transform: translateY(-1px); }
 @media (min-width: 900px) { .eoi-cta { margin-left: 0; } }
 @media (max-width: 899px) { .eoi-cta { margin-top: 14px; } .eoi-txt b { letter-spacing: .12em; font-size: 13.5px; } .eoi-go { width: 36px; height: 36px; } }
 @media (prefers-reduced-motion: reduce) { .eoi-cta::before, .eoi-cta::after, .eoi-ping::before, .eoi-ping::after { animation: none; } .eoi-cta::after { display: none; } }
+/* header call button: icon only on phones, so the logo lockup and menu still fit */
+@media (max-width: 480px) { .header-inner .hdr-call { width: 40px; min-height: 40px; padding: 0; gap: 0; } .header-inner .hdr-call span { display: none; } }

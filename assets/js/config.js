@@ -24,8 +24,8 @@ window.SS_CONFIG = {
   /* Sales number. The header call button stays hidden until both are set
    * (the header shows "Enquire Now" instead).
    * Example: phoneDisplay "98765 43210", phoneE164 "+919876543210". */
-  phoneDisplay: "",
-  phoneE164: "",
+  phoneDisplay: "63613 01284",
+  phoneE164: "+916361301284",
 
   /* WhatsApp number, digits only with country code (e.g. "919876543210"). WhatsApp buttons stay hidden until set. */
   whatsappNumber: "",
