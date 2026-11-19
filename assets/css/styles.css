@@ -522,7 +522,7 @@ button.phone-pill { background: transparent; cursor: pointer; }
 .sw-mark { margin: 0; display: inline-flex; flex-direction: column; align-items: center; color: #fff; line-height: 1; }
 .sw-by { display: flex; align-items: center; gap: 12px; font-family: var(--sans); font-size: clamp(10.5px, .95vw, 13px); font-weight: 600; letter-spacing: .5em; text-transform: uppercase; color: #e7d3ad; margin-right: -.5em; }
 .sw-by::before, .sw-by::after { content: ""; width: 28px; height: 1px; background: currentColor; opacity: .7; }
-.sw-name { font-family: "SW Cormorant", "Cormorant Garamond", Georgia, serif; font-weight: 500; font-size: clamp(54px, 6.4vw, 96px); letter-spacing: -.005em; margin-top: 6px; }
+.sw-name { font-family: Georgia, serif; font-weight: 500; font-size: clamp(54px, 6.4vw, 96px); letter-spacing: -.005em; margin-top: 6px; }
 .sw-name i { font-style: italic; color: #e7c56f; background: linear-gradient(100deg, #f3dc9a 0%, #e0b65a 55%, #c99a3f 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; padding-right: .06em; text-shadow: none; }
 .sw-sprig { width: clamp(170px, 18vw, 260px); height: auto; margin-top: 2px; color: #e0b65a; filter: drop-shadow(0 2px 6px rgba(0,0,0,.35)); }
 @media (min-width: 900px) { .sw-mark { align-items: flex-start; } .sw-sprig { margin-left: 8px; } }
@@ -707,20 +707,20 @@ body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
   --band-2: #f4f1ea;
 }
 .btn:hover, .side-tab:hover, .hdr-visit:hover { background: #0c161d; }
-.sw-name { font-family: "Cormorant Garamond", Georgia, serif; }
+.sw-name { font-family: Georgia, serif; }
 .cr-img, .fp-img { background: #eee8dc; }
 /* single hero image: no cross-fade */
 .hero > .hero-slide { animation: none; opacity: 1; object-position: 62% 55%; }
 /* text wordmark (no project logo supplied yet) */
 .ch-brand { display: inline-flex; flex-direction: column; justify-content: center; min-height: 44px; text-decoration: none; color: var(--ink); line-height: 1; }
 .ch-brand small { font-size: 9.5px; font-weight: 600; letter-spacing: .42em; text-transform: uppercase; color: var(--beige); }
-.ch-brand b { font-family: "Cormorant Garamond", Georgia, serif; font-style: italic; font-weight: 500; font-size: 30px; letter-spacing: .01em; margin-top: 3px; }
+.ch-brand b { font-family: Georgia, serif; font-style: italic; font-weight: 500; font-size: 30px; letter-spacing: .01em; margin-top: 3px; }
 .hero-copy .sw-mark { margin-bottom: 18px; }
 .sw-mark.sw-dark { color: var(--dark); align-items: center; }
 .sw-mark.sw-dark .sw-by { color: var(--beige); }
 .sw-mark.sw-dark .sw-name { font-size: clamp(46px, 4.6vw, 64px); }
 .sw-mark.sw-dark .sw-name i { background: none; -webkit-text-fill-color: currentColor; color: var(--dark); }
-.foot-word { font-family: "Cormorant Garamond", Georgia, serif; font-style: italic; font-size: 26px; color: var(--dark); line-height: 1; }
+.foot-word { font-family: Georgia, serif; font-style: italic; font-size: 26px; color: var(--dark); line-height: 1; }
 .foot-word small { display: block; font-family: var(--sans); font-style: normal; font-size: 9px; font-weight: 600; letter-spacing: .38em; text-transform: uppercase; color: var(--beige); margin-bottom: 4px; }
 /* Why Hennur cards */
 .why-hennur { background: var(--band); }

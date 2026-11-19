@@ -21,8 +21,11 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,300;1,8..60,400&family=Figtree:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="assets/img/hero-lifestyle.webp">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,300;1,8..60,400&family=Figtree:wght@300;400;500;600&family=Montserrat:wght@300;400;500;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,300;1,8..60,400&family=Figtree:wght@300;400;500;600&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,300;1,8..60,400&family=Figtree:wght@300;400;500;600&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet"></noscript>
+<link rel="preload" as="image" href="assets/img/hero-1600.webp" imagesrcset="assets/img/hero-900.webp 900w, assets/img/hero-1600.webp 1600w" imagesizes="100vw" fetchpriority="high">
+<link rel="preload" as="style" href="assets/css/styles.css">
 <link rel="stylesheet" href="assets/css/styles.css">
 
 <script src="assets/js/config.js"></script>
@@ -101,7 +104,7 @@
 
 <!-- ============ BANNER ============ -->
 <section class="banner hero" id="hero" aria-label="Codename Hennur">
-  <img class="hero-slide" src="assets/img/hero-lifestyle.webp" width="1804" height="1004" alt="Poolside lounge deck lit at dusk, representative lifestyle image" fetchpriority="high">
+  <img class="hero-slide" src="assets/img/hero-1600.webp" srcset="assets/img/hero-900.webp 900w, assets/img/hero-1600.webp 1600w" sizes="100vw" width="1600" height="890" alt="Poolside lounge deck lit at dusk, representative lifestyle image" fetchpriority="high" decoding="async">
   <p class="hero-rep">Image for representation purposes only</p>
   <div class="hero-shade" aria-hidden="true"></div>
   <div class="wrap hero-grid">
@@ -201,14 +204,14 @@
   <div class="wrap">
     <h2 id="gallery-title" class="display center">Gallery</h2>
     <div class="g-grid">
-      <button class="js-lightbox" type="button" data-full="assets/img/g-living.webp" data-caption="Living room · Representative image"><img src="assets/img/g-living.webp" width="1251" height="698" loading="lazy" decoding="async" alt="Living room opening to a sunset-facing deck, representative image"></button>
-      <button class="js-lightbox" type="button" data-full="assets/img/g-bedroom-1.webp" data-caption="Master bedroom · Representative image"><img src="assets/img/g-bedroom-1.webp" width="1000" height="750" loading="lazy" decoding="async" alt="Master bedroom with a private sit-out, representative image"></button>
-      <button class="js-lightbox" type="button" data-full="assets/img/g-pool.webp" data-caption="Swimming pool · Representative image"><img src="assets/img/g-pool.webp" width="1252" height="705" loading="lazy" decoding="async" alt="Swimming pool with landscaped deck, representative image"></button>
-      <button class="js-lightbox" type="button" data-full="assets/img/g-bedroom-2.webp" data-caption="Bedroom · Representative image"><img src="assets/img/g-bedroom-2.webp" width="828" height="465" loading="lazy" decoding="async" alt="Sunlit bedroom, representative image"></button>
-      <button class="js-lightbox" type="button" data-full="assets/img/g-balcony.webp" data-caption="Balcony lounge · Representative image"><img src="assets/img/g-balcony.webp" width="748" height="420" loading="lazy" decoding="async" alt="Balcony lounge with open views, representative image"></button>
-      <button class="js-lightbox" type="button" data-full="assets/img/g-walkway.webp" data-caption="Landscaped walkway · Representative image"><img src="assets/img/g-walkway.webp" width="1803" height="1004" loading="lazy" decoding="async" alt="Landscaped walkway at dusk, representative image"></button>
-      <button class="js-lightbox" type="button" data-full="assets/img/g-lobby.webp" data-caption="Grand lobby · Representative image"><img src="assets/img/g-lobby.webp" width="1600" height="891" loading="lazy" decoding="async" alt="Double-height lobby with timber ceiling, representative image"></button>
-      <button class="js-lightbox" type="button" data-full="assets/img/g-living-2.webp" data-caption="Living and dining · Representative image"><img src="assets/img/g-living-2.webp" width="827" height="465" loading="lazy" decoding="async" alt="Living and dining room, representative image"></button>
+      <button class="js-lightbox" type="button" data-full="assets/img/g-living.webp" data-caption="Living room · Representative image"><img src="assets/img/g-living-sm.webp" width="1000" height="558" loading="lazy" decoding="async" alt="Living room opening to a sunset-facing deck, representative image"></button>
+      <button class="js-lightbox" type="button" data-full="assets/img/g-bedroom-1.webp" data-caption="Master bedroom · Representative image"><img src="assets/img/g-bedroom-1-sm.webp" width="720" height="540" loading="lazy" decoding="async" alt="Master bedroom with a private sit-out, representative image"></button>
+      <button class="js-lightbox" type="button" data-full="assets/img/g-pool.webp" data-caption="Swimming pool · Representative image"><img src="assets/img/g-pool-sm.webp" width="720" height="405" loading="lazy" decoding="async" alt="Swimming pool with landscaped deck, representative image"></button>
+      <button class="js-lightbox" type="button" data-full="assets/img/g-bedroom-2.webp" data-caption="Bedroom · Representative image"><img src="assets/img/g-bedroom-2-sm.webp" width="720" height="404" loading="lazy" decoding="async" alt="Sunlit bedroom, representative image"></button>
+      <button class="js-lightbox" type="button" data-full="assets/img/g-balcony.webp" data-caption="Balcony lounge · Representative image"><img src="assets/img/g-balcony-sm.webp" width="720" height="404" loading="lazy" decoding="async" alt="Balcony lounge with open views, representative image"></button>
+      <button class="js-lightbox" type="button" data-full="assets/img/g-walkway.webp" data-caption="Landscaped walkway · Representative image"><img src="assets/img/g-walkway-sm.webp" width="720" height="401" loading="lazy" decoding="async" alt="Landscaped walkway at dusk, representative image"></button>
+      <button class="js-lightbox" type="button" data-full="assets/img/g-lobby.webp" data-caption="Grand lobby · Representative image"><img src="assets/img/g-lobby-sm.webp" width="720" height="401" loading="lazy" decoding="async" alt="Double-height lobby with timber ceiling, representative image"></button>
+      <button class="js-lightbox" type="button" data-full="assets/img/g-living-2.webp" data-caption="Living and dining · Representative image"><img src="assets/img/g-living-2-sm.webp" width="720" height="405" loading="lazy" decoding="async" alt="Living and dining room, representative image"></button>
     </div>
     <p class="fineprint center">Representative lifestyle and interior images, shown for reference only; they are not images of the actual project. Actual design, specifications and finishes may vary.</p>
   </div>
@@ -226,10 +229,10 @@
         <li><button class="am-tab" type="button" role="tab" aria-selected="false" data-target="am-sport"><span class="am-ic"><svg aria-hidden="true" width="26" height="26"><use href="#a-sport"/></svg></span>Recharge: Sports &amp; Fitness</button></li>
       </ul>
       <div class="am-panels">
-        <figure class="am-panel is-active" id="am-green" role="tabpanel"><img src="assets/img/am-green.webp" width="1400" height="688" loading="lazy" decoding="async" alt="Landscaped garden walk at sunset, representative image"><figcaption>About 80% of the 3-acre site is kept as open space, so a single tower of two wings stands in landscaped grounds. <span class="am-rep">Representative image, not of the actual project.</span></figcaption></figure>
-        <figure class="am-panel" id="am-club" role="tabpanel" hidden><img src="assets/img/am-club.webp" width="1400" height="733" loading="lazy" decoding="async" alt="Clubhouse games lounge, representative image"><figcaption>Part of the 20+ amenities planned at Codename Hennur. The full amenity list is shared along with the price sheet. <span class="am-rep">Representative image, not of the actual project.</span></figcaption></figure>
-        <figure class="am-panel" id="am-relax" role="tabpanel" hidden><img src="assets/img/am-pool.webp" width="1400" height="699" loading="lazy" decoding="async" alt="Pool deck with loungers seen from above, representative image"><figcaption>Part of the 20+ amenities planned at Codename Hennur. The full amenity list is shared along with the price sheet. <span class="am-rep">Representative image, not of the actual project.</span></figcaption></figure>
-        <figure class="am-panel" id="am-sport" role="tabpanel" hidden><img src="assets/img/am-sport.webp" width="1252" height="705" loading="lazy" decoding="async" alt="Sports courts set among trees, representative image"><figcaption>Part of the 20+ amenities planned at Codename Hennur. The full amenity list is shared along with the price sheet. <span class="am-rep">Representative image, not of the actual project.</span></figcaption></figure>
+        <figure class="am-panel is-active" id="am-green" role="tabpanel"><img src="assets/img/am-green-sm.webp" width="1000" height="491" loading="lazy" decoding="async" alt="Landscaped garden walk at sunset, representative image"><figcaption>About 80% of the 3-acre site is kept as open space, so a single tower of two wings stands in landscaped grounds. <span class="am-rep">Representative image, not of the actual project.</span></figcaption></figure>
+        <figure class="am-panel" id="am-club" role="tabpanel" hidden><img src="assets/img/am-club-sm.webp" width="1000" height="524" loading="lazy" decoding="async" alt="Clubhouse games lounge, representative image"><figcaption>Part of the 20+ amenities planned at Codename Hennur. The full amenity list is shared along with the price sheet. <span class="am-rep">Representative image, not of the actual project.</span></figcaption></figure>
+        <figure class="am-panel" id="am-relax" role="tabpanel" hidden><img src="assets/img/am-pool-sm.webp" width="1000" height="499" loading="lazy" decoding="async" alt="Pool deck with loungers seen from above, representative image"><figcaption>Part of the 20+ amenities planned at Codename Hennur. The full amenity list is shared along with the price sheet. <span class="am-rep">Representative image, not of the actual project.</span></figcaption></figure>
+        <figure class="am-panel" id="am-sport" role="tabpanel" hidden><img src="assets/img/am-sport-sm.webp" width="1000" height="563" loading="lazy" decoding="async" alt="Sports courts set among trees, representative image"><figcaption>Part of the 20+ amenities planned at Codename Hennur. The full amenity list is shared along with the price sheet. <span class="am-rep">Representative image, not of the actual project.</span></figcaption></figure>
       </div>
     </div>
   </div>
@@ -313,7 +316,7 @@
   <button class="modal-close" type="button" aria-label="Close" data-close><svg aria-hidden="true" width="18" height="18"><use href="#i-close"/></svg></button>
   <div class="modal-grid">
     <aside class="modal-offer">
-      <img class="modal-photo" src="assets/img/hero-lifestyle.webp" width="1804" height="1004" alt="" decoding="async">
+      <img class="modal-photo" src="assets/img/hero-900.webp" width="900" height="501" alt="" loading="lazy" decoding="async">
       <div class="modal-offer-inner">
         <p class="pv-mark pv-modal"><span class="pv-purva">Purva</span><span class="pv-name">Codename Hennur</span><span class="pv-loc">Off Outer Ring Road</span></p>
         <p class="modal-eyebrow">3 &amp; 4 BHK · Off Outer Ring Road</p>
