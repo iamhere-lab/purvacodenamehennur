@@ -44,5 +44,5 @@ window.SS_CONFIG = {
   consentEntity: "the Codename Hennur sales team and its authorised channel partners",
 
   siteUrl: "https://www.purvacodenamehennur.in/",
-  privacyUrl: ""
+  privacyUrl: "privacy.html"
 };
